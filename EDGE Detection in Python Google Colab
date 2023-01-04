@@ -1,0 +1,19 @@
+# First, install the necessary libraries if you don't have them already
+!pip install opencv-python
+
+# Next, import the necessary libraries
+import cv2
+import matplotlib.pyplot as plt
+
+# Load the image using the imread() function from the cv2 library
+image = cv2.imread('image.jpg')
+
+# Convert the image to grayscale using the cvtColor() function
+gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
+
+# Perform edge detection using the Canny() function from the cv2 library
+edges = cv2.Canny(gray_image, 100, 200)
+
+# Display the edge image using the imshow() function from matplotlib
+plt.imshow(edges, cmap='gray')
+plt.show()
