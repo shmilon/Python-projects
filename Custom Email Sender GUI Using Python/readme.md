@@ -15,7 +15,7 @@ from dash import Dash, Input, Output, State, callback, dash_table, dcc, html
 
 ```Python
 import smtplib as smtp
-email = "test@gmail.com"
+email = "testmail@gmail.com"
 def sendMail(receiver,sub,body):
     try:
         server = smtp.SMTP("smtp.gmail.com", 587)
