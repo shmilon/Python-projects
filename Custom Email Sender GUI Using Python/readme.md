@@ -1,6 +1,6 @@
 # Python Email Sender using Google SMTP Server
 
-![Alt text](https://github.com/shmilon/Python-projects/blob/main/mail_server/Screenshot.jpg "web preview")
+![Alt text](https://github.com/shmilon/Python-projects/blob/main/Custom%20Email%20Sender%20GUI%20Using%20Python/Screenshot.jpg "web preview")
 
 ## Python Library Reference:
 
