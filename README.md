@@ -1,4 +1,5 @@
 # Python-projects
+![visitor badge](https://visitor-badge.laobi.icu/badge?page_id=shmilon.Python-projects&left_text=MyPageVisitors)
 
 ## Project list
 - [Custom Email Sender GUI Using Python](https://github.com/shmilon/Python-projects/tree/main/Custom%20Email%20Sender%20GUI%20Using%20Python)
